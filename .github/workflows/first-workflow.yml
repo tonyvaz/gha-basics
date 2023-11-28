@@ -9,3 +9,8 @@ jobs:
         run: echo 'Hello World'
       - name: My Second Step
         run : echo 'This is another message'
+  second-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: This is Another step
+        run: echo 'this is another step in the workflow'
